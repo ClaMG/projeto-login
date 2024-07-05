@@ -27,7 +27,7 @@ main{
 #loguin{
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -84,10 +84,35 @@ main{
     font-size: 1em;
     width: 100%;
     height: 40px;
-    background-color: #59c4c1;
-    color: #49a09d;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    color: #38827f;
     border: 1px solid #49a09d;
-    border-radius: 5px;
+    border-radius: 7px;
     text-decoration: none;
     
+    
 }
+.bot:hover{
+        background-color: #59c4c1;
+}
+.bot span{
+    font-size: 0.8em;
+}
+
+.campo{
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+
+}
+
+.campo label{
+    display: none;
+}
+
+
